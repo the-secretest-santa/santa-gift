@@ -1,0 +1,205 @@
+#container{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+#background{
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+#heading{
+    font-size: 30px;
+}
+
+button {
+    margin-top: 2em;
+    margin-right: 0.4em;
+    color: black;
+    background-color: rgb(243, 240, 255);
+    border-radius: 10px;
+    padding: 5px 12px;
+    font-size: larger;
+    transition: 0.1s linear;
+}
+button:hover {
+    background-color: rgb(248, 252, 255);
+}
+
+.kkbuttonbox {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    left: 0px;
+}
+
+.bhbuttonbox {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    right: 0px;
+}
+/* Nakiki Portion */
+#kkhair{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#kkmodel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/kk_doll.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#kkshoes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#kkclothes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.nakey{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/nakey.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.kkclothes1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/kk_cloth1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.kkhair1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/kk_hair1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.kkhair2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/kk_hair2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.kkshoes1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/kk_shoes1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+/* 
+#nextkkhair{
+    position: absolute;
+}
+
+#nextkkshoes{
+    position: absolute;
+}
+
+#nextkkclothes{
+    position: absolute;
+} */
+/* Byung Ho Portion */
+#bhhair{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#bhmodel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/bh_doll.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#bhshoes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#bhclothes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bhclothes1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/bh_cloth1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.bhhair1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/bh_hair1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.bhhair2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/bh_hair2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.bhshoes1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/bh_shoes1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
